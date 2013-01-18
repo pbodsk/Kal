@@ -39,6 +39,7 @@ NSString *const KalDataSourceChangedNotification = @"KalDataSourceChangedNotific
 @implementation KalViewController
 
 @synthesize dataSource, delegate, initialDate, selectedDate;
+@synthesize tableView;
 
 - (id)initWithSelectedDate:(NSDate *)date
 {
